@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MathWebsite/static/css/main.8bc8eedc.css",
+    "main.js": "/MathWebsite/static/js/main.38976cec.js",
+    "static/js/787.1ed0c42c.chunk.js": "/MathWebsite/static/js/787.1ed0c42c.chunk.js",
+    "static/media/PercentCalc.png": "/MathWebsite/static/media/PercentCalc.3a202c6cbab198bf31f5.png",
+    "index.html": "/MathWebsite/index.html",
+    "main.8bc8eedc.css.map": "/MathWebsite/static/css/main.8bc8eedc.css.map",
+    "main.38976cec.js.map": "/MathWebsite/static/js/main.38976cec.js.map",
+    "787.1ed0c42c.chunk.js.map": "/MathWebsite/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bc8eedc.css",
+    "static/js/main.38976cec.js"
+  ]
+}
