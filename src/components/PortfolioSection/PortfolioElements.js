@@ -30,7 +30,20 @@ display: flex;
 export const Img = styled.div`
 width: 100%;
 height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 background-repeat: no-repeat;
-background-image: url(${myImage});
-opacity: 0.4;
+/* background-image: url(${myImage}); */
+`
+
+export const Links = styled.a`
+color: red;
+`
+
+export const LinkButton = styled.button`
+width: 100px;
+padding: 20px;
+background-color: white;
+color: black;
 `

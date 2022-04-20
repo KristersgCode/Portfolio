@@ -8,11 +8,13 @@ align-items: center;
 width: 100%;
 height: 100vh;
 background-color: #153147;
+position: relative;
 `
 
 export const HeroBg = styled.div`
 width: 800px;
 height: 400px;
+
 
 `
 

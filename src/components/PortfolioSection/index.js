@@ -1,7 +1,8 @@
 import React from 'react'
-import { BgContainer, ColumnContainer, Img, Placeholder, ProjectContainer } from './PortfolioElements'
+import { BgContainer, ColumnContainer, Img, LinkButton, Links, Placeholder, ProjectContainer } from './PortfolioElements'
 import Fade from 'react-reveal/Fade';
 import { AboutMeTitleOrange, AboutMeTitleOrangeCenter, TitleContainerBlue, TitleContainerBlueCenter } from '../../TitleContainersElements';
+import { Link } from 'react-router-dom';
 
 const PortfolioSection = ({img, alt}) => {
   return (
@@ -9,7 +10,7 @@ const PortfolioSection = ({img, alt}) => {
     <BgContainer>
 <TitleContainerBlue>
   <AboutMeTitleOrange>
-  MY PROJECTS
+  MY PROJECTS 
   </AboutMeTitleOrange>
 </TitleContainerBlue>
 
@@ -17,6 +18,9 @@ const PortfolioSection = ({img, alt}) => {
 <ProjectContainer>
   <Placeholder>
     <Img>
+    <LinkButton>
+    <Links href="https://kristersgcode.github.io/Percentage-Calculator/"  target="_blank" rel="noreferrer noopener">Live Site</Links>
+    </LinkButton>
   </Img> 
   </Placeholder>
 </ProjectContainer>
@@ -24,6 +28,9 @@ const PortfolioSection = ({img, alt}) => {
 <ProjectContainer>
   <Placeholder>
   <Img>
+  <LinkButton>
+    <Links href="https://kristersgcode.github.io/Tipcalculator/"  target="_blank" rel="noreferrer noopener">Live Site</Links>
+    </LinkButton>
   </Img> 
   </Placeholder>
 </ProjectContainer>
