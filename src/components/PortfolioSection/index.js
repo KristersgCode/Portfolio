@@ -1,5 +1,5 @@
 import React from 'react'
-import { BgContainer, ColumnContainer, HeadingApp, Img, LinkButton, Links, Placeholder, ProjectContainer } from './PortfolioElements'
+import { BgContainer, ColumnContainer, DescriptionApp, HeadingApp, Img, LinkButton, Links, Placeholder, ProjectContainer } from './PortfolioElements'
 import Fade from 'react-reveal/Fade';
 import { AboutMeTitleOrange, AboutMeTitleOrangeCenter, TitleContainerBlue, TitleContainerBlueCenter } from '../../TitleContainersElements';
 import { Link } from 'react-router-dom';
@@ -15,41 +15,11 @@ const PortfolioSection = ({img, alt}) => {
 </TitleContainerBlue>
 
 <ColumnContainer>
-<ProjectContainer>
-  <Placeholder>
-    <Img>
-    <HeadingApp>
-    Precent calculator
-  </HeadingApp>
-    <LinkButton>
-    <Links href="https://kristersgcode.github.io/Percentage-Calculator/"  target="_blank" rel="noreferrer noopener">Live Site</Links>
-    </LinkButton>
-    <LinkButton>
-    Code
-    </LinkButton>
-  </Img> 
-  </Placeholder>
-</ProjectContainer>
 
 <ProjectContainer>
   <Placeholder>
   <Img>
-  <HeadingApp>
-    Tip calculator
-  </HeadingApp>
-  <LinkButton>
-    <Links href="https://kristersgcode.github.io/Tipcalculator/"  target="_blank" rel="noreferrer noopener">Live Site</Links>
-    </LinkButton>
-    <LinkButton>
-    Code
-    </LinkButton>
-  </Img> 
-  </Placeholder>
-</ProjectContainer>
-
-<ProjectContainer>
-  <Placeholder>
-  <Img>
+  <DescriptionApp>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that</DescriptionApp>
   <HeadingApp>
     Todo app
   </HeadingApp>
@@ -57,7 +27,7 @@ const PortfolioSection = ({img, alt}) => {
     <Links href="https://kristersgcode.github.io/CrudApp/"  target="_blank" rel="noreferrer noopener">Live Site</Links>
     </LinkButton>
     <LinkButton>
-    Code
+    <Links href="https://github.com/KristersgCode/CrudApp.git"  target="_blank" rel="noreferrer noopener">Code</Links>
     </LinkButton>
   </Img> 
   </Placeholder>
@@ -65,15 +35,16 @@ const PortfolioSection = ({img, alt}) => {
 
 <ProjectContainer>
   <Placeholder>
-  <Img>
-  <HeadingApp>
-    Math teachers website
+    <Img>
+    <DescriptionApp>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that</DescriptionApp>
+    <HeadingApp>
+    Precent calculator
   </HeadingApp>
-  <LinkButton>
-    <Links href="https://kristersgcode.github.io/currency/" target="_blank" rel="noreferrer noopener">Live Site</Links>
+    <LinkButton>
+    <Links href="https://kristersgcode.github.io/Percentage-Calculator/"  target="_blank" rel="noreferrer noopener">Live Site</Links>
     </LinkButton>
     <LinkButton>
-    Code
+    <Links href="https://github.com/KristersgCode/Percentage-Calculator.git"  target="_blank" rel="noreferrer noopener">Code</Links>
     </LinkButton>
   </Img> 
   </Placeholder>
@@ -82,6 +53,41 @@ const PortfolioSection = ({img, alt}) => {
 <ProjectContainer>
   <Placeholder>
   <Img>
+  <DescriptionApp>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that</DescriptionApp>
+  <HeadingApp>
+    Tip calculator
+  </HeadingApp>
+  <LinkButton>
+    <Links href="https://kristersgcode.github.io/Tipcalculator/"  target="_blank" rel="noreferrer noopener">Live Site</Links>
+    </LinkButton>
+    <LinkButton>
+    <Links href="https://github.com/KristersgCode/Tipcalculator.git"  target="_blank" rel="noreferrer noopener">Code</Links>
+    </LinkButton>
+  </Img> 
+  </Placeholder>
+</ProjectContainer>
+
+<ProjectContainer>
+  <Placeholder>
+    <Img>
+    <DescriptionApp>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that</DescriptionApp>
+    <HeadingApp>
+    Math teachers website
+  </HeadingApp>
+    <LinkButton>
+    <Links href="https://kristersgcode.github.io/Percentage-Calculator/"  target="_blank" rel="noreferrer noopener">Live Site</Links>
+    </LinkButton>
+    <LinkButton>
+    <Links href="https://github.com/KristersgCode/CrudApp.git"  target="_blank" rel="noreferrer noopener">Code</Links>
+    </LinkButton>
+  </Img> 
+  </Placeholder>
+</ProjectContainer>
+
+<ProjectContainer>
+  <Placeholder>
+  <Img>
+  <DescriptionApp>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that</DescriptionApp>
   <HeadingApp>
     API currency app
   </HeadingApp>
@@ -89,42 +95,13 @@ const PortfolioSection = ({img, alt}) => {
     <Links href="https://kristersgcode.github.io/currency/" target="_blank" rel="noreferrer noopener">Live Site</Links>
     </LinkButton>
     <LinkButton>
-    Code
-    </LinkButton>
+    <Links href="https://github.com/KristersgCode/currency.git" target="_blank" rel="noreferrer noopener">Code</Links>
+    </LinkButton> 
   </Img> 
   </Placeholder>
 </ProjectContainer>
 
 </ColumnContainer>
-
-<ColumnContainer>
-<ProjectContainer>
-  <Placeholder>
-
-  </Placeholder>
-</ProjectContainer>
-
-<ProjectContainer>
-  <Placeholder>
-
-  </Placeholder>
-</ProjectContainer>
-
-<ProjectContainer>
-  <Placeholder>
-
-  </Placeholder>
-</ProjectContainer>
-
-<ProjectContainer>
-  <Placeholder>
-
-  </Placeholder>
-</ProjectContainer>
-
-</ColumnContainer>
-
-
     </BgContainer>
     </Fade>
   )
