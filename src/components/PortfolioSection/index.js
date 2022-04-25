@@ -1,13 +1,15 @@
 import React from 'react'
-import { BgContainer, ColumnContainer, DescriptionApp, HeadingApp, Img, LinkButton, Links, Placeholder, ProjectContainer } from './PortfolioElements'
+import { BgContainer, ColumnContainer, DescriptionApp, HeadingApp, Img, Img1, Img2, LinkButton, Links, Placeholder, ProjectContainer } from './PortfolioElements'
 import Fade from 'react-reveal/Fade';
 import { AboutMeTitleOrange, AboutMeTitleOrangeCenter, TitleContainerBlue, TitleContainerBlueCenter } from '../../TitleContainersElements';
 import { Link } from 'react-router-dom';
+import PorfolioCards from '../PorfolioCards';
+import { objFour, objOne, objThree, objTwo, objFive } from '../InfoSection/Data';
 
-const PortfolioSection = ({img, alt}) => {
+const PortfolioSection = () => {
   return (
     <Fade left>
-    <BgContainer>
+    <BgContainer >
 <TitleContainerBlue>
   <AboutMeTitleOrange>
   MY PROJECTS 
@@ -15,8 +17,12 @@ const PortfolioSection = ({img, alt}) => {
 </TitleContainerBlue>
 
 <ColumnContainer>
-
-<ProjectContainer>
+    <PorfolioCards {...objOne}/>
+    <PorfolioCards {...objTwo}/>
+    <PorfolioCards {...objThree}/>
+    <PorfolioCards {...objFour}/>
+    <PorfolioCards {...objFive}/>
+{/* <ProjectContainer>
   <Placeholder>
   <Img>
   <DescriptionApp>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that</DescriptionApp>
@@ -35,7 +41,7 @@ const PortfolioSection = ({img, alt}) => {
 
 <ProjectContainer>
   <Placeholder>
-    <Img>
+    <Img2>
     <DescriptionApp>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that</DescriptionApp>
     <HeadingApp>
     Precent calculator
@@ -46,7 +52,7 @@ const PortfolioSection = ({img, alt}) => {
     <LinkButton>
     <Links href="https://github.com/KristersgCode/Percentage-Calculator.git"  target="_blank" rel="noreferrer noopener">Code</Links>
     </LinkButton>
-  </Img> 
+  </Img2> 
   </Placeholder>
 </ProjectContainer>
 
@@ -99,7 +105,7 @@ const PortfolioSection = ({img, alt}) => {
     </LinkButton> 
   </Img> 
   </Placeholder>
-</ProjectContainer>
+</ProjectContainer>  */}
 
 </ColumnContainer>
     </BgContainer>

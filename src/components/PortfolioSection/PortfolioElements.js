@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import myImage from "../../images/PercentCalc.png"
+import ImageTodo from "../../images/Todo.png"
 
 export const BgContainer = styled.div`
 display: flex;
@@ -29,7 +30,59 @@ export const ColumnContainer = styled.div`
 width: 100%;
 display: flex;
 `
+
 export const Img = styled.div`
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+border-radius: 8px;
+justify-content: center;
+align-items: center;
+background-repeat: no-repeat;
+background-image: url(${ImageTodo});
+box-shadow: inset 120px 120px 350px #F5B041, inset -120px -120px 350px #111;
+
+
+&:hover {
+    cursor: pointer;
+    box-shadow: none;
+    transition: .5s ease-in-out;
+    transform: scale(1.05);
+    background-color: blue;
+    background-color: #153147;
+    background-image: none;
+
+   :after {
+    content: "";
+    background: url(${ImageTodo}); 
+    border-radius: 8px;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+   }
+    h1 {
+    opacity: 0;}
+    button {
+    transition: .7s ease-in-out;
+    background-color: orange;}
+    a {
+        color: #153147;
+    }
+    h2 {
+        display: inline;
+        color: white;
+        position: absolute;
+      margin-top: -80px;
+    }
+}
+`
+
+export const Img2 = styled.div`
 width: 100%;
 height: 100%;
 display: flex;
@@ -55,7 +108,7 @@ box-shadow: inset 120px 120px 350px #F5B041, inset -120px -120px 350px #111;
     content: "";
     background: url(${myImage}); 
     border-radius: 8px;
-    opacity: 0.1;
+    opacity: 0.2;
     top: 0;
     left: 0;
     bottom: 0;
@@ -72,8 +125,10 @@ box-shadow: inset 120px 120px 350px #F5B041, inset -120px -120px 350px #111;
         color: #153147;
     }
     h2 {
-        display: inline;
         color: white;
+        display: inline;
+      position: absolute;
+      margin-top: -80px;
     }
 }
 `
