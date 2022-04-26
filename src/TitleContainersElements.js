@@ -48,7 +48,8 @@ box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 export const DescContainerOrange = styled.div`
 
 width: 60%;
-height: 110px;
+padding: 20px 0 20px 0;
+min-height: 110px;
 align-items: center;
 display: flex;
 border-bottom: 2px solid #AE6A02;

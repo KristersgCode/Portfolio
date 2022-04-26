@@ -1,12 +1,12 @@
 import React from 'react'
-import { DescriptionApp, HeadingApp, Img, LinkButton, Links, Placeholder, ProjectContainer, Test } from './PorfolioCardsElements'
+import { DescriptionApp, HeadingApp, Img, LinkButton, Links, Placeholder, ProjectContainer, Picture} from './PorfolioCardsElements'
 
 const PorfolioCards = ({ id, headLine, img, alt, liveCode, gitRepo, description  }) => {
   return (
     <ProjectContainer id={id}>
   <Placeholder>
   <Img> 
-  <Test src={img} alt={alt} />
+  <Picture src={img} alt={alt} />
   <DescriptionApp>{description}</DescriptionApp>
   <HeadingApp>
    {headLine}

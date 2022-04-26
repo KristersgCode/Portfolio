@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, HeroBg, HeroBtnWrapper, HeroContainer, HeroContent, HeroH1, HeroP, Line, Symbol, Symbol2 } from './HeroSectionElements'
+import { Button, HeroBtnWrapper, HeroContainer, HeroContent, HeroH1, HeroP, Symbol2 } from './HeroSectionElements'
 import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
 
@@ -7,9 +7,6 @@ const HeroSection = () => {
     return (
         <>
         <HeroContainer>
-            <HeroBg>
-            </HeroBg>
-            <Symbol> &lt;/&gt;</Symbol>
                 <Symbol2> &lt;/&gt;</Symbol2>
             <HeroContent>
             <Fade left>

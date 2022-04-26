@@ -6,15 +6,17 @@ justify-content: center;
 align-items: center;
 width: 100%;
 height: 400px;
+flex:10%;
 `
 export const Placeholder = styled.div`
 width: 250px;
 height: 330px;
 box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 border-radius: 8px;
+margin-right: 20px;
 `
 
-export const Test = styled.img`
+export const Picture = styled.img`
 height: 330px;
 width: 250px;
 position: absolute;

@@ -12,9 +12,6 @@ position: relative;
 `
 
 export const HeroBg = styled.div`
-width: 800px;
-height: 400px;
-
 
 `
 
@@ -79,14 +76,15 @@ export const Line = styled.div`
   
 `
 
-export const Symbol = styled.h1`
-font-size: 25rem;
+
+export const Symbol2 = styled.h1`
+font-size: 70vw;
 color: orange;
-position: absolute;
-margin-left: 500px;
-margin-top: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
 font-family: 'Updock', cursive;
-opacity: 0.3;
+opacity: 0.2;
 
 animation-name: floating;
 animation-duration: 3s;
@@ -98,25 +96,8 @@ animation-timing-function: ease-in-out;
     50%  { transform: translate(0, 15px); }
     100%   { transform: translate(0, -0px); }   
 }
-`
 
-export const Symbol2 = styled.h1`
-font-size: 42rem;
-color: orange;
-position: absolute;
-margin-top: -20px;
-margin-left: -500px;
-font-family: 'Updock', cursive;
-opacity: 0.3;
-
-animation-name: floating;
-animation-duration: 3s;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in-out;
-
-@keyframes floating {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, -0px); }   
+@media screen and (max-width: 500px) {
+    font-size: 36px;
 }
 `
