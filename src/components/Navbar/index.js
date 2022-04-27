@@ -1,36 +1,68 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaBars } from "react-icons/fa"
-import { IconsContainer, InlineBlock, MobileIcon, Nav, NavbarContainer, NavItem, NavLinks, NavMenu } from "./NavBarElements"
-
+import { IconsContainer, InlineBlock, MobileIcon, Nav, NavbarContainer, NavItem, NavLinks, NavLogo, NavMenu } from "./NavBarElements"
+import { animateScroll as scroll } from 'react-scroll';
 
 const Navbar = ({ toggle }) => {
+
+    const [scrollNav, setScrollNav] = useState(false)
+
+    const changeNav = () => {
+        if (window.scrollY > 150) {
+            setScrollNav(true)
+        } else {
+            setScrollNav(false)
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', changeNav);
+    }, []);
+
+    const toggleHome = () => {
+        scroll.scrollToTop();
+        
+    }
+
     return (
         <>
-            <Nav>
+            <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <MobileIcon onClick={toggle}>
+                    <MobileIcon>
                         <FaBars />
                     </MobileIcon>
 
-                    <IconsContainer>
+                    {/* <IconsContainer >
                         <h1>KristersG</h1>
-                    </IconsContainer>
-
+                    </IconsContainer> */}
+                    <NavLogo to="/" onClick={toggleHome}>
+                        KristersG
+                    </NavLogo>
 
 
                     <NavMenu>
                         <NavItem>
-                            <NavLinks>Home
+                            <NavLinks to="about"  smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact="true">
+                                Home
                             </NavLinks>
                         </NavItem>
 
                         <NavItem>
-                            <NavLinks>Resume
+                            <NavLinks to="resume" smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact="true" offset={-80}>Resume
                             </NavLinks>
                         </NavItem>
 
                         <NavItem>
-                            <NavLinks>Portfolio
+                            <NavLinks to="portfolio"  smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact="true">Portfolio
                             </NavLinks>
                         </NavItem>
                     </NavMenu>

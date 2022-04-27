@@ -6,7 +6,7 @@ import { AboutMeDescrBlue, AboutMeTitleBlue, DescContainerOrange, TitleContainer
 const CvSection = () => {
   return (
     <Fade right>
-    <SectionContainer>
+    <SectionContainer id='resume'>
       
         <CvContainer>
           <Fade>

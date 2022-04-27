@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Roboto+Mono:wght@300&family=Roboto:wght@300;400;500&family=Source+Code+Pro:wght@300&family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed&family=Fira+Code:wght@300;400&family=Montserrat+Alternates:wght@300&family=Roboto+Mono:wght@300&family=Roboto:wght@300;400;500&family=Saira+Condensed&family=Source+Code+Pro:wght@300&family=Updock&display=swap');
 
 
 * {
@@ -7,10 +7,14 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
 
 body {
   margin: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Saira Condensed', sans-serif;
   padding: 0;
 }
 

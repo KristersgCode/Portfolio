@@ -65,10 +65,13 @@ box-shadow: inset 120px 120px 350px #F5B041, inset -120px -120px 350px #111;
     }
     h2 {
         display: inline;
-        color: white;
         position: absolute;
-      margin-top: -80px;
-    }
+        font-size: 1rem;
+margin-top: -90px;
+color: white;
+width: 230px;
+font-weight: bold;
+    } 
 }
 `
 
@@ -96,12 +99,11 @@ z-index: 1;
 
 export const DescriptionApp = styled.h2`
 font-size: 1rem;
-margin-bottom: 180px;
-position: absolute;
+margin-top: -90px;
 color: #153147;
 width: 230px;
-font-weight: bold;
-/* text-align: center; */
 display: none;
+/* text-align: center; */
+/* display: none; */
 
 `

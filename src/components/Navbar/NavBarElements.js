@@ -1,14 +1,15 @@
 import styled from "styled-components"
-
-
+import { Link as LinkR } from "react-router-dom"
+import { Link as LinkS } from "react-scroll"
 
 export const Nav = styled.nav`
+background: ${({ scrollNav }) => (scrollNav ? "#000" : 'red')};
 height: 80px;
 margin-top: -80px;
 display: flex;
 align-items: center;
 justify-content: center;
-font-size: 1rem;
+font-size: 1.5rem;
 position: sticky;
 top: 0;
 z-index: 10;
@@ -18,6 +19,18 @@ box-shadow: 0px 1px 10px #222;
     transition: 0.8s all ease;
 }
 `
+
+export const NavLogo = styled(LinkR)`
+color: #fff;
+justify-self: flex-start;
+cursor: pointer;
+font-size: 1.5rem;
+display: flex;
+align-items: center;
+margin-left: 24px;
+font-weight: bold;
+text-decoration: none;
+`;
 
 export const NavbarContainer = styled.div`
 display: flex;
@@ -48,7 +61,7 @@ display: flex;
 align-items: center;
 
 `
-export const NavLinks = styled.a`
+export const NavLinks = styled(LinkS)`
 text-decoration: none;
 list-style: none;
 padding: 0 1rem;
@@ -56,6 +69,11 @@ transition: 0.2s ease-in-out;
 text-decoration: none;
 color: #fff;
 cursor: pointer;
+
+&.active {
+    transition: 0.2 ease-in-out;
+    border-bottom: 3px solid orange;
+}
 
 &:hover {
     color: orange;

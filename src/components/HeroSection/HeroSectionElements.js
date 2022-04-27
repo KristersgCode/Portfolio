@@ -28,14 +28,14 @@ align-items: center;
 
 export const HeroH1 = styled.h1`
 color: #fff;
-font-size: 3.5rem;
+font-size: 5.5rem;
 text-align: center;
 `
 
 
 export const HeroP = styled.p`
 color: white;
-font-size: 2rem;
+font-size: 3rem;
 text-align: center;
 max-width: 600px;
 
@@ -86,6 +86,7 @@ align-items: center;
 font-family: 'Updock', cursive;
 opacity: 0.2;
 
+
 animation-name: floating;
 animation-duration: 3s;
 animation-iteration-count: infinite;
@@ -93,7 +94,7 @@ animation-timing-function: ease-in-out;
 
 @keyframes floating {
     0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
+    50%  { transform: translate(0, 30px); }
     100%   { transform: translate(0, -0px); }   
 }
 

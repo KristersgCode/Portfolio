@@ -6,7 +6,7 @@ import Flip from 'react-reveal/Flip';
 const HeroSection = () => {
     return (
         <>
-        <HeroContainer>
+        <HeroContainer id="about">
                 <Symbol2> &lt;/&gt;</Symbol2>
             <HeroContent>
             <Fade left>
@@ -19,10 +19,13 @@ const HeroSection = () => {
                 <HeroP>
                     I am a <span style={{ color: 'orange' }}> Front-End</span> Developer
                 </HeroP>
+                <HeroP style={{ fontSize: '2rem' }}>
+                <span style={{ color: 'orange' }}> Contact me</span> <a href="mailto:kristersgutmanis@gmail.com">kristersgutmanis<span style={{ color: 'orange' }}>@</span>gmail.com</a>
+                </HeroP>
                 </Fade>
                 <HeroBtnWrapper>
                 <Fade right>
-                    <Button to="CV">
+                    <Button to='resume' >
                         Read my resume
                     </Button>
                     </Fade>

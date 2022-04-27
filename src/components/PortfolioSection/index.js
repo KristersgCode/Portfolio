@@ -9,7 +9,7 @@ import { objFour, objOne, objThree, objTwo, objFive } from '../InfoSection/Data'
 const PortfolioSection = () => {
   return (
     <Fade left>
-    <BgContainer >
+    <BgContainer id='portfolio'>
 <TitleContainerBlue>
   <AboutMeTitleOrange>
   MY PROJECTS 

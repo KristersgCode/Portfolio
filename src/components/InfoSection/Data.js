@@ -42,7 +42,7 @@ export const objThree = {
 
 export const objFour = {
     id: 'about',
-    headLine: 'Math teaher website',
+    headLine: 'Teachers website',
     description: 'Get access to online lessons with me and become better at math. Many people turn to online learning for its .',
     liveCode: 'https://kristersgcode.github.io/currency/',
     gitRepo: 'https://github.com/KristersgCode/currency.git',
