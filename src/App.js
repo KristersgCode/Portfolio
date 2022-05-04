@@ -5,7 +5,7 @@ import Home from './pages';
 
 function App() {
   return (
-    <Router>
+    <Router basename={window.location.pathname || ''}>
       <Routes>
         <Route path='/' element={<Home />} />
       </Routes>
