@@ -22,7 +22,6 @@ width: 250px;
 position: absolute;
 border-radius: 8px;
 opacity: 0.1;
-box-shadow: inset 120px 120px 350px #F5B041, inset -120px -120px 350px #111;
 `
 
 export const Img = styled.div`
@@ -51,7 +50,7 @@ box-shadow: inset 120px 120px 350px #F5B041, inset -120px -120px 350px #111;
     button {
         z-index: 1;
     transition: .7s ease-in-out;
-    background-color: orange;
+    background-color: #ffbc5e;
 
     &:hover
     {
@@ -67,7 +66,7 @@ box-shadow: inset 120px 120px 350px #F5B041, inset -120px -120px 350px #111;
         display: inline;
         position: absolute;
         font-size: 1rem;
-margin-top: -90px;
+padding-bottom: 180px;
 color: white;
 width: 230px;
 font-weight: bold;
@@ -76,7 +75,7 @@ font-weight: bold;
 `
 
 export const Links = styled.a`
-color: orange;
+color: #ffbc5e;
 text-decoration: none;
 `
 
@@ -99,7 +98,6 @@ z-index: 1;
 
 export const DescriptionApp = styled.h2`
 font-size: 1rem;
-margin-top: -90px;
 color: #153147;
 width: 230px;
 display: none;

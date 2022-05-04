@@ -3,7 +3,6 @@ import { Link as LinkR } from "react-router-dom"
 import { Link as LinkS } from "react-scroll"
 
 export const Nav = styled.nav`
-background: ${({ scrollNav }) => (scrollNav ? "#000" : 'red')};
 height: 80px;
 margin-top: -80px;
 display: flex;
@@ -15,6 +14,11 @@ top: 0;
 z-index: 10;
 background-color: #153147;
 box-shadow: 0px 1px 10px #222;
+
+&:hover {
+    transition: 3s ease-in-out;
+}
+
 @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
 }
@@ -70,14 +74,16 @@ text-decoration: none;
 color: #fff;
 cursor: pointer;
 
-&.active {
+/* &.active {
     transition: 0.2 ease-in-out;
     border-bottom: 3px solid orange;
-}
+} */
 
 &:hover {
-    color: orange;
+    color: #ffbc5e;
+    transform: scale(1.1);
     transition: 0.2 ease-in-out;
+    
 }
 `;
 

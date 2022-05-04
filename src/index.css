@@ -1,3 +1,4 @@
+@import 'normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed&family=Fira+Code:wght@300;400&family=Montserrat+Alternates:wght@300&family=Roboto+Mono:wght@300&family=Roboto:wght@300;400;500&family=Saira+Condensed&family=Source+Code+Pro:wght@300&family=Updock&display=swap');
 
 
@@ -16,9 +17,18 @@ body {
   margin: 0;
   font-family: 'Saira Condensed', sans-serif;
   padding: 0;
+  line-height: normal;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+span {
+  color:#ffbc5e;
+}
+
+em {
+  color: #1A476B;
 }

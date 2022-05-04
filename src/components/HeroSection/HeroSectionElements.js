@@ -30,6 +30,13 @@ export const HeroH1 = styled.h1`
 color: #fff;
 font-size: 5.5rem;
 text-align: center;
+
+@media screen and (max-width: 525px) {
+    font-size: 4rem;   
+};
+
+@media screen and (max-width: 375px) {
+    font-size: 3rem };
 `
 
 
@@ -39,6 +46,12 @@ font-size: 3rem;
 text-align: center;
 max-width: 600px;
 
+@media screen and (max-width: 525px) {
+    font-size: 2rem;
+};
+
+@media screen and (max-width: 375px) {
+    font-size: 1.5rem };
 `
 export const HeroBtnWrapper = styled.div`
 margin-top: 32px;
@@ -67,19 +80,9 @@ transition: all 0.2s ease-in-out;
 }
 `
 
-export const Line = styled.div`
-
-   height:2px;
-   width:100%;
-   background-color:orange;
-   border-radius:5px;
-  
-`
-
-
-export const Symbol2 = styled.h1`
-font-size: 70vw;
-color: orange;
+export const Symbol = styled.h1`
+font-size: 60vw;
+color: #111;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -88,7 +91,7 @@ opacity: 0.2;
 
 
 animation-name: floating;
-animation-duration: 3s;
+animation-duration: 2s;
 animation-iteration-count: infinite;
 animation-timing-function: ease-in-out;
 
@@ -98,7 +101,14 @@ animation-timing-function: ease-in-out;
     100%   { transform: translate(0, -0px); }   
 }
 
-@media screen and (max-width: 500px) {
-    font-size: 36px;
+`
+
+export const SocialIconLink = styled.a`
+color: #ffbc5e;
+font-size: 3.5rem;
+
+&:hover {
+    color: #fff;
+    transition: 0.5s ease-in-out;
 }
 `

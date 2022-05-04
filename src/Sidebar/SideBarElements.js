@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { FaTimes } from "react-icons/fa"
 import { Link as LinkR } from "react-router-dom"
+import { Link as LinkS } from "react-scroll"
 
 export const SidebarContainer = styled.aside`
 position: fixed;
@@ -48,7 +49,7 @@ grid-template-rows: repeat(6, 60px);
 
 `
 
-export const SidebarLink = styled.a`
+export const SidebarLink = styled(LinkS)`
 display: flex;
 align-items: center;
 justify-content: center;
@@ -61,8 +62,9 @@ color: #fff;
 cursor: pointer;
 
 &:hover {
-    color: #01bf71;
-    transition: 0.2 ease-in-out;
+    color: #ffbc5e;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
 }
 `
 

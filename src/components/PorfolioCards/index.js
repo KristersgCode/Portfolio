@@ -3,7 +3,7 @@ import { DescriptionApp, HeadingApp, Img, LinkButton, Links, Placeholder, Projec
 
 const PorfolioCards = ({ id, headLine, img, alt, liveCode, gitRepo, description  }) => {
   return (
-    <ProjectContainer id={id}>
+    <ProjectContainer>
   <Placeholder>
   <Img> 
   <Picture src={img} alt={alt} />

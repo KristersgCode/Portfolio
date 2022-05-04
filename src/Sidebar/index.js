@@ -8,15 +8,24 @@ export const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="Home" onClick={toggle}>
+                    <SidebarLink to="about" onClick={toggle} smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact="true" >
                         Home
                     </SidebarLink>
 
-                    <SidebarLink to="CV" onClick={toggle}>
-                        CV
+                    <SidebarLink to="resume" onClick={toggle} smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact="true" offset={-80}>
+                        Resume
                     </SidebarLink>
 
-                    <SidebarLink to="Portfolio" onClick={toggle}>
+                    <SidebarLink to="portfolio" onClick={toggle} smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact="true" >
                         Porfolio
                     </SidebarLink>
 
