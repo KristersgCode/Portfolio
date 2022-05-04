@@ -7,8 +7,11 @@ align-items: center;
 width: 100%;
 height: 400px;
 flex:10%;
+margin-left: 20px;
 `
 export const Placeholder = styled.div`
+display: flex;
+align-items: center;
 width: 250px;
 height: 330px;
 box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -28,12 +31,13 @@ export const Img = styled.div`
 width: 100%;
 height: 100%;
 display: flex;
+position: relative;
 flex-direction: column;
 border-radius: 8px;
 justify-content: center;
 align-items: center;
 background-repeat: no-repeat;
-box-shadow: inset 120px 120px 350px #F5B041, inset -120px -120px 350px #111;
+background-color: #ffbc5e;
 
 
 
