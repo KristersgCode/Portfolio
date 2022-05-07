@@ -116,7 +116,7 @@ transition: all 0.2s ease-in-out;
 `
 
 export const Symbol = styled.h1`
-font-size: 60vw;
+font-size: 55vw;
 color: #111;
 display: flex;
 justify-content: center;
