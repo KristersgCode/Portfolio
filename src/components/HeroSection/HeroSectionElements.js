@@ -9,6 +9,13 @@ width: 100%;
 height: 100vh;
 background-color: #153147;
 position: relative;
+
+@media only screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 1000px)
+  and (orientation: landscape) {
+    width: 100%;
+    height: 100%};
 `
 
 export const HeroBg = styled.div`
@@ -37,7 +44,21 @@ text-align: center;
 
 @media screen and (max-width: 375px) {
     font-size: 3rem };
+
+    @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    font-size: 3rem };
+
+    @media only screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 1000px)
+  and (orientation: landscape) {
+    font-size: 3.5rem };
 `
+
 
 
 export const HeroP = styled.p`
@@ -52,6 +73,20 @@ max-width: 600px;
 
 @media screen and (max-width: 375px) {
     font-size: 1.5rem };
+
+    @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    font-size: 2rem;
+}
+
+@media only screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 1000px)
+  and (orientation: landscape) {
+    font-size: 2rem };
 `
 export const HeroBtnWrapper = styled.div`
 margin-top: 32px;
@@ -111,4 +146,11 @@ font-size: 3.5rem;
     color: #fff;
     transition: 0.5s ease-in-out;
 }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 1000px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    font-size: 2.5rem };
 `

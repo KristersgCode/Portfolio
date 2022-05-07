@@ -11,7 +11,7 @@ export const objOne = {
 }
 
 export const objTwo = {
-    headLine: 'Precent calculator',
+    headLine: 'Percentage calculator',
     description: 'Made with vanilla JavaScript and Bootstrap. App to calculate percentages of a number.',
     liveCode: 'https://kristersgcode.github.io/Percentage-Calculator/',
     gitRepo: 'https://github.com/KristersgCode/Percentage-Calculator.git',

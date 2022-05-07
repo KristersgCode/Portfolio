@@ -16,6 +16,7 @@ left: 0;
 transition: 0.3s ease-in-out;
 opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')}; //0 is insivisble 
 top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+
 `
 
 export const CloseIcon = styled(FaTimes)`
@@ -66,6 +67,12 @@ cursor: pointer;
     transform: scale(1.1);
     transition: 0.2s ease-in-out;
 }
+
+@media only screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 1000px)
+  and (orientation: landscape) {
+    margin-top: 100px};
 `
 
 export const SideBtnWrap = styled.div`

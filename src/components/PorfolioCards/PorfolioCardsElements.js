@@ -17,6 +17,13 @@ height: 330px;
 box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 border-radius: 8px;
 margin-right: 20px;
+
+@media only screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 1000px)
+  and (orientation: landscape) {
+    width: 250px;
+height: 300px; };
 `
 
 export const Picture = styled.img`
@@ -25,6 +32,13 @@ width: 250px;
 position: absolute;
 border-radius: 8px;
 opacity: 0.1;
+
+@media only screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 1000px)
+  and (orientation: landscape) {
+    width: 250px;
+height: 300px; };
 `
 
 export const Img = styled.div`
