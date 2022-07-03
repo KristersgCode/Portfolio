@@ -28,7 +28,8 @@ const ResumeSection = () => {
 <Fade right>
           <AboutMeDescrBlue>
           <IconResume> <MdContacts /> </IconResume>
-            I am a <span style={{ color: "#1A476B" }}> front end </span>software developer who previously worked as Architect and wants to change profession and become excellent coder.
+            I am a <span style={{ color: "#1A476B" }}> front end </span>software developer who previously worked as Architect
+            and wants to break into the field of software development.
           </AboutMeDescrBlue>
           </Fade>
           </DescContainerOrange>
@@ -66,7 +67,7 @@ const ResumeSection = () => {
           <p>Jul 2018 - present</p>
           <ParagraphColored>Senior architect in architecture office fully remote - "A+Sh"</ParagraphColored>
 <p>Jun 2017 - Apr 2018 </p>
-<ParagraphColored>Internship in an architecture office - "Muud". </ParagraphColored>
+<ParagraphColored>Internship in an architecture office - "Muud" </ParagraphColored>
 <p>Jun 2014 - Apr 2017 </p>
 <ParagraphColored>Freelancer 3D CGI artist </ParagraphColored>
           </AboutMeDescrBlue>
