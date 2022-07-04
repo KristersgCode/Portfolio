@@ -23,28 +23,28 @@ import {
 
 const PortfolioSection = () => {
   return (
-    <Fade left>
-      <BgContainer id="portfolio">
-        <TitleContainerBlue>
+    <BgContainer id="portfolio">
+      <TitleContainerBlue>
+        <Fade left>
           <AboutMeTitleOrange>MY PROJECTS</AboutMeTitleOrange>
-        </TitleContainerBlue>
+        </Fade>
+      </TitleContainerBlue>
 
-        <ColumnContainer>
-          <PorfolioCards {...objOne} />
-          <PorfolioCards {...objTwo} />
-          <PorfolioCards {...objThree} />
-          <PorfolioCards {...objFour} />
-          <PorfolioCards {...objFive} />
-          <PorfolioCards {...objSix} />
-          <PorfolioCards {...objSeven} />
-          <PorfolioCards {...objEight} />
-          <PorfolioCards {...objNine} />
-          <PorfolioCards {...objTen} />
-          <PorfolioCards {...objEleven} />
-          <PorfolioCards {...objTwelve} />
-        </ColumnContainer>
-      </BgContainer>
-    </Fade>
+      <ColumnContainer>
+        <PorfolioCards {...objOne} />
+        <PorfolioCards {...objTwo} />
+        <PorfolioCards {...objThree} />
+        <PorfolioCards {...objFour} />
+        <PorfolioCards {...objFive} />
+        <PorfolioCards {...objSix} />
+        <PorfolioCards {...objSeven} />
+        <PorfolioCards {...objEight} />
+        <PorfolioCards {...objNine} />
+        <PorfolioCards {...objTen} />
+        <PorfolioCards {...objEleven} />
+        <PorfolioCards {...objTwelve} />
+      </ColumnContainer>
+    </BgContainer>
   );
 };
 
