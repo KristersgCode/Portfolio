@@ -22,7 +22,7 @@ export const objTwo = {
 };
 
 export const objThree = {
-  headLine: "Vanilla todo list with local storage",
+  headLine: "Todo list with local storage",
   description:
     "Made in vanilla javascript. Todo list that saves your list in local storage",
   liveCode: "https://kristersgcode.github.io/VanillaTodoList/",
