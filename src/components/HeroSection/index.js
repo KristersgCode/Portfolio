@@ -30,7 +30,7 @@ const HeroSection = () => {
               I am a <span> Front-End</span> Developer
             </HeroP>
             <HeroP>
-              <span> Contact me</span>
+              <span> Contact me </span>
               <a href="mailto:kristersgutmanis@gmail.com">
                 kristersgutmanis<span>@</span>gmail.com
               </a>
