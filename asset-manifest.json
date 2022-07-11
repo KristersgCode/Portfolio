@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.771b90ba.css",
-    "main.js": "/Portfolio/static/js/main.1a1bf4e3.js",
+    "main.js": "/Portfolio/static/js/main.b7574ebc.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/WeatherApp.png": "/Portfolio/static/media/WeatherApp.b964abd3ff86a291a827.png",
     "static/media/TipCalc.png": "/Portfolio/static/media/TipCalc.a296df5dc64bef9e4035.png",
     "static/media/Netflix.png": "/Portfolio/static/media/Netflix.961b04b2b93ef320e386.png",
     "static/media/Poke.png": "/Portfolio/static/media/Poke.b4f0c26e3fc0f74b8b4a.png",
-    "static/media/Angular.png": "/Portfolio/static/media/Angular.bf409416210f0ca8b7a1.png",
     "static/media/TodoLocal.png": "/Portfolio/static/media/TodoLocal.26baedd104aebf94e070.png",
     "static/media/EmployCalc.png": "/Portfolio/static/media/EmployCalc.1f252e59b863629c41c9.png",
     "static/media/TicTacToe.png": "/Portfolio/static/media/TicTacToe.9e8cc55d85698bc55a1c.png",
@@ -15,14 +14,15 @@
     "static/media/Todo.png": "/Portfolio/static/media/Todo.5dd825b8d373f1d0cfce.png",
     "static/media/PercentCalc.png": "/Portfolio/static/media/PercentCalc.924c1457073ceb998c3d.png",
     "static/media/Card.png": "/Portfolio/static/media/Card.2d64119dc080a65ae9c4.png",
+    "static/media/Angular.png": "/Portfolio/static/media/Angular.831fbde6b5ee1a2d1f60.png",
     "static/media/Currency.png": "/Portfolio/static/media/Currency.c1bf78724ef62d2efee8.png",
     "index.html": "/Portfolio/index.html",
     "main.771b90ba.css.map": "/Portfolio/static/css/main.771b90ba.css.map",
-    "main.1a1bf4e3.js.map": "/Portfolio/static/js/main.1a1bf4e3.js.map",
+    "main.b7574ebc.js.map": "/Portfolio/static/js/main.b7574ebc.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.771b90ba.css",
-    "static/js/main.1a1bf4e3.js"
+    "static/js/main.b7574ebc.js"
   ]
 }
